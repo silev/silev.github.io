@@ -1,6 +1,6 @@
 html {
     width: 100%;
-    height: calc(100% - 116px);
+    height: 83%;
     margin: 0;
     overflow-x: hidden
 }
@@ -70,7 +70,7 @@ a {
 
 .name {
     font-family: 'Open Sans',sans-serif;
-    font-size: 72px;
+    font-size: 128px;
     text-align: right;
     font-weight: 500;
     line-height: 1.1;
@@ -79,7 +79,7 @@ a {
 
 .title {
     font-family: 'Roboto',sans-serif;
-    font-size: 23px;
+    font-size: 38px;
     line-height: 1.1;
     font-weight: 500;
     color: #333;
@@ -88,9 +88,10 @@ a {
 
 p {
     font-family: 'Open Sans',sans-serif;
-    font-size: 17px;
+    font-size: 30px;
     padding-top: 10px;
-    line-height: 175%
+    line-height: 175%;
+    text-align: justify
 }
 
 .left {
@@ -112,7 +113,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 20px;
+    padding: 1.55%;
     background-color: #1b1919;
     font-family:Roboto;
     color:#fff
@@ -125,14 +126,46 @@ footer {
 
 .getintouch {
     text-align:center; 
-    font-size:32px;
+    font-size:64px;
+}
+
+.email {
+    font-size: 32px
 }
 
 img {
     float:left; 
     margin-right:10px;
-    height: auto;
+    height: 64px;
     align-self: center
+}
+
+@media (max-width: 2200px) {
+    .name {
+        font-size:100px
+    }
+
+    .title {
+        font-size: 30px!important
+    }
+
+    p {
+        font-size: 24px
+    }
+}
+
+@media (max-width: 1700px) {
+    .name {
+        font-size:72px
+    }
+
+    .title {
+        font-size: 23px!important
+    }
+
+    p {
+        font-size: 17px
+    }
 }
 
 @media (max-width: 1350px) {
@@ -225,5 +258,47 @@ img {
 
     .flex-item {
         height: auto
+    }
+}
+
+@media (max-height: 1540px) {
+    .getintouch {
+        font-size:64px
+    }
+
+    .email {
+        font-size: 32px
+    }
+
+    img {
+        height: 64px
+    }
+}
+
+@media (max-height: 1100px) {
+    .getintouch {
+        font-size:44px
+    }
+
+    .email {
+        font-size: 22px
+    }
+
+    img {
+        height: 44px
+    }
+}
+
+@media (max-height: 770px) {
+    .getintouch {
+        font-size:32px
+    }
+
+    .email {
+        font-size: 16px
+    }
+
+    img {
+        height: 32px
     }
 }
