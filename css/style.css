@@ -65,7 +65,7 @@ body {
 }
 
 a {
-    color: #428BCA;
+    color: #3d8db5;
     text-decoration: none
 }
 
@@ -75,7 +75,7 @@ a {
     text-align: right;
     font-weight: 500;
     line-height: 1.1;
-    color: #333
+    color: #2f2f2f
 }
 
 .title {
@@ -83,7 +83,7 @@ a {
     font-size: 38px;
     line-height: 1.1;
     font-weight: 500;
-    color: #333;
+    color: #2f2f2f;
     text-align: right;
 }
 
@@ -112,7 +112,6 @@ p {
 footer {
     padding-left: 1.55%;
     padding-right: 1.55%;
-    padding-top: 20px;
     padding-bottom: 20px;
     background-color: #1b1919;
     font-family:Roboto;
@@ -127,6 +126,7 @@ footer {
 .getintouch {
     text-align:center; 
     font-size:64px;
+    line-height: 1.75;
 }
 
 .email {
@@ -152,9 +152,47 @@ img {
     p {
         font-size: 24px
     }
+
+    .getintouch {
+        font-size:44px
+    }
+
+    .email {
+        font-size: 22px
+    }
+
+    img {
+        height: 44px
+    }
 }
 
 @media (max-width: 1700px) {
+    .name {
+        font-size:90px
+    }
+
+    .title {
+        font-size: 29px
+    }
+
+    p {
+        font-size: 19px
+    }
+
+    .getintouch {
+        font-size:40px
+    }
+
+    .email {
+        font-size: 20px
+    }
+
+    img {
+        height: 40px
+    }
+}
+
+@media (max-width: 1350px) {
     .name {
         font-size:72px
     }
@@ -164,13 +202,19 @@ img {
     }
 
     p {
-        font-size: 17px
+        font-size: 15px
     }
-}
 
-@media (max-width: 1350px) {
-    p {
-        font-size:15px
+    .getintouch {
+        font-size:32px
+    }
+
+    .email {
+        font-size: 16px
+    }
+
+    img {
+        height: 32px
     }
 }
 
@@ -186,6 +230,18 @@ img {
     p {
         font-size: 12px
     }
+
+    .getintouch {
+        font-size:20px
+    }
+
+    .email {
+        font-size: 10px
+    }
+
+    img {
+        height: 20px
+    }
 }
 
 @media (max-width: 740px) {
@@ -199,6 +255,10 @@ img {
 
     p {
         font-size: 10px
+    }
+
+    footer {
+        padding-bottom: 10px;
     }
 }
 
@@ -224,6 +284,18 @@ img {
 
     p {
         font-size: 17px;
+    }
+
+    .getintouch {
+        font-size:32px
+    }
+
+    .email {
+        font-size: 16px
+    }
+
+    img {
+        height: 32px
     }
 
     @keyframes slideinleft {
@@ -254,61 +326,5 @@ img {
         100% {
             opacity: 1
         }
-    }
-}
-
-@media (max-height: 1540px) {
-    .getintouch {
-        font-size:64px
-    }
-
-    .email {
-        font-size: 32px
-    }
-
-    img {
-        height: 64px
-    }
-}
-
-@media (max-height: 1100px) {
-    .getintouch {
-        font-size:44px
-    }
-
-    .email {
-        font-size: 22px
-    }
-
-    img {
-        height: 44px
-    }
-}
-
-@media (max-height: 770px) {
-    .getintouch {
-        font-size:32px
-    }
-
-    .email {
-        font-size: 16px
-    }
-
-    img {
-        height: 32px
-    }
-}
-
-@media (max-height: 440px) and (min-width: 646px) {
-    .getintouch {
-        font-size:20px
-    }
-
-    .email {
-        font-size: 10px
-    }
-
-    img {
-        height: 20px
     }
 }
